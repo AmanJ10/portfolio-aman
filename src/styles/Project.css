@@ -1,0 +1,54 @@
+/* Tailwind CSS code */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the Projects section */
+#projects {
+  @apply text-4xl font-bold text-gray-800 text-center my-8 uppercase tracking-wide;
+}
+
+.grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-8;
+}
+
+.bg-white {
+  @apply bg-white shadow-lg rounded-lg overflow-hidden;
+}
+
+.bg-gray-200 {
+  @apply bg-gray-200 bg-cover bg-center;
+}
+
+.h-48 {
+  @apply h-48;
+}
+
+.p-6 {
+  @apply p-6;
+}
+
+.text-xl {
+  @apply text-xl font-semibold mb-2;
+}
+
+.text-gray-700 {
+  @apply text-gray-700 mb-4;
+}
+
+.flex {
+  @apply flex flex-wrap gap-2 mb-4;
+}
+
+.text-xs {
+  @apply text-xs font-semibold inline-block py-1 px-2 rounded;
+}
+
+.text-indigo-500 {
+  @apply text-indigo-500 hover:text-indigo-700 font-semibold inline-flex items-center;
+}
+
+.ml-1 {
+  @apply ml-1;
+}
