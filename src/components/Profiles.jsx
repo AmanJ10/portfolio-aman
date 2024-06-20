@@ -31,7 +31,7 @@ function Profiles() {
       </h2>
       <div className="flex justify-center items-center space-x-12">
         <a
-          href="https://github.com/"
+          href="https://github.com/AmanJ10"
           target="_blank"
           rel="noreferrer"
           className="transition-transform transform hover:scale-125 hover:shadow-github p-4 rounded-full profile-icon"
@@ -39,7 +39,7 @@ function Profiles() {
           <FaGithub className="text-8xl text-black" />
         </a>
         <a
-          href="https://leetcode.com/"
+          href="https://leetcode.com/u/Aman_Joharapurkar/"
           target="_blank"
           rel="noreferrer"
           className="transition-transform transform hover:scale-125 hover:shadow-leetcode p-4 rounded-full profile-icon"
@@ -47,7 +47,7 @@ function Profiles() {
           <SiLeetcode className="text-8xl text-yellow-500" />
         </a>
         <a
-          href="https://www.geeksforgeeks.org/"
+          href="https://www.geeksforgeeks.org/user/amanj2003/"
           target="_blank"
           rel="noreferrer"
           className="transition-transform transform hover:scale-125 hover:shadow-gfg p-4 rounded-full profile-icon"
