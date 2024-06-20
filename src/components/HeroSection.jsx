@@ -36,7 +36,6 @@ export default function HeroSection() {
           </h1>
           <p className="text-base md:text-xl text-darkblue leading-snug">
             I have a solid foundation in web development and machine learning,
-            <br />
             with a passion for creating innovative solutions.
           </p>
         </div>
