@@ -44,6 +44,7 @@ export default function HeroSection() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          console.log(import.meta.env.VITE_RESUME_URL)
           <button className=" mt-5 btn btn-primary btn text-gray-200  md:mt-6 duration-300 hover:-translate-y-1 px-10 md:px-6 py-3 md:py-2 rounded-lg text-xl md:text-base font-semibold bg-[#212223]">
             <i className="fa-solid fa-download"></i>
             RESUME
